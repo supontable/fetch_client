@@ -5,7 +5,6 @@ import { StyledName } from './components/Name'
 import { ThemeProvider } from "react-jss";
 import { postGarageList, getGarage } from './Api'
 import './App.css';
-import './bikepost.css';
 const theme = {
   background: "#f7df1e",
   color: "#24292e"

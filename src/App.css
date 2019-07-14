@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-flow: column; 
+}
+.App-logo.animated {
+  animation: App-logo-spin infinite 4.2s linear;
+}
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  transition: all 0.5s ease-out;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-right: 20px;
+  transition: all 0.5s ease-out;
+}
+.App-header.hidden {
+  min-height: 0;
+  overflow: hidden;
+  align-items: flex-end;
+  position: absolute;
+  right: 20px;
+  margin-right: 0;
+}
+
+.App-header.hidden input {
+  display: none;
+}
+.App-link {
+  color: #61dafb;
+}
+
+
+.Item__bike {
+  width: 450px;
+  height: 70px;
+}
+.Item__content {
+  background: #fff;
+  padding: 20px;
+}
+
+.Checkbox {
+  float: left;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.bikes-container {
+  width: 550px;
+  height: 420px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.bike-content-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button {
+  margin-top: 20px;
+  border: 1px solid black;
+  background: #fff;
+  border-radius: 3px;
+  width: 200px;
+  height: 40px;
+  font-size: 26px;
+}
+button.reset {
+  border-radius: 50%;
+  width: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* BIKEPOST 
+* Moto item
+*
+*
+*/
+.garage-moto {
+    margin-bottom: 7px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    background: #fff;
+}
+
+.garage-moto-logo {
+    float: left
+}
+
+.garage-moto-logo:hover {
+    opacity: .7
+}
+
+
+.garage-moto-thumbnail {
+    float: left;
+    display: inline
+}
+
+.garage-moto-body {
+    float: left;
+    margin-left: 20px
+}
+
+
+.moto-title {
+    border: 0 none;
+    display: block;
+    float: left;
+    color: #777;
+    font-family: Arial,Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 19px;
+    text-decoration: none;
+    width: 100%
+}
+
+.moto-title span,.user-profile p.realname span {
+    background: #F0F0E7;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 1px 3px;
+    color: #777
+}
+
+.moto-title:hover {
+    color: #36A;
+    text-decoration: underline
+}
+
+/* BIKEPOST 
+*  bpboard item
+*
+*
+*/
